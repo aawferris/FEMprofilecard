@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
   <link rel="stylesheet" href="style.css">
 
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;700&display=swap" rel="stylesheet">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | Profile card component</title>
@@ -17,6 +19,7 @@
 </head>
 <body>
   <div id="main-container">
+    <img />
     <div id="profile-card">
       <div id="top">
         <img />
@@ -24,19 +27,23 @@
       </div>
       <div id="bottom">
         <div id="demo">
-          Victor Crest
-          26
-          London
+          <p id="name">Victor Crest</p>
+          <p id="age">26</p>
+          <p id="location">London</p>
         </div>
         <div id="social">
-          80K
-          Followers
-        
-          803K
-          Likes
-        
-          1.4K
-          Photos
+          <div id="follow-box">
+            <p id="follow-num">80K</p>
+            <p id="followers">Followers</p>
+          </div>
+          <div id="like-box">
+            <p id="like-num">803K</p>
+            <p id="likes">Likes</p>
+          </div>
+          <div id="photo-box">
+            <p id="photo-num">1.4K</p>
+            <p id="photos">Photos</p>
+          </div>
         </div>
       </div>
     </div>
