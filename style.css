@@ -1,0 +1,12 @@
+#main-profile {
+    display: flex;
+    justify-items: center;
+}
+
+#profile-card {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    max-width: 375px;
+}
+
