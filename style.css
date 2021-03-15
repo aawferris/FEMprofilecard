@@ -1,0 +1,17 @@
+* {
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+#main-container {
+    border: 3px solid black;
+    display: flex;
+}
+
+#profile-card {
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 375px;
+}
+
